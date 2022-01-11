@@ -1,0 +1,13 @@
+.products_container {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .products_container {
+        flex-direction: column;
+        align-items: center;
+    }
+  }

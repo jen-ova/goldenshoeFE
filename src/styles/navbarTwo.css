@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbarTwo_container {
+  height: 1rem;
+  margin-bottom: 3rem;
+}
+
+.navbarTwo_wrapper {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits_display {
+  display: flex;
+  align-items: center;
+}
+
+.benefits_container {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.categoryItem_button:hover {opacity: 1}
+
+@media only screen and (max-width: 900px) {
+  .benefits_container {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Serif&display=swap');
+
+.navbar_container {
+  height: 4rem;
+  background-color: #D1B000;
+}
+
+.navbar_container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Noto Serif', serif;
+}
+
+.navbar_wrapper {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_center {
+  color: white;
+  align-items: center;
+  text-align: left;
+  flex: 2;
+}
+
+.navbar_logo {
+  font-weight: bolder;
+  font-size: 2.25rem;
+}
+
+.navbar_right {
+  color: white;
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar_menuItems {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.navbar_icon {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar_logo {
+    font-size: 1rem;
+  }
+}
